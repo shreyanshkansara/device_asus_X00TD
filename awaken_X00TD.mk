@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Awaken stuff
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
+# Inherit GoogleCameraGoEdition
+$(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
