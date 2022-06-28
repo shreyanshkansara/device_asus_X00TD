@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Awaken stuff
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common zephyrus stuffs
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit GoogleCameraGoEdition
 $(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEdition.mk)
@@ -22,7 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := awaken_X00TD
+PRODUCT_NAME := X00TD
 PRODUCT_DEVICE := X00TD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max Pro M1
