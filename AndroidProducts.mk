@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_X00TD.mk
+    $(LOCAL_DIR)/conquer_X00TD.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_X00TD-userdebug \
-    awaken_X00TD-eng
+    conquer_X00TD-userdebug \
+    conquer_X00TD-eng
